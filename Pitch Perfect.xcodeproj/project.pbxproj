@@ -14,6 +14,7 @@
 		E93474BB1CEAC5D500AA8058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93474B91CEAC5D500AA8058 /* LaunchScreen.storyboard */; };
 		E93474C61CEAC5D600AA8058 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93474C51CEAC5D600AA8058 /* Pitch_PerfectTests.swift */; };
 		E93474D11CEAC5D600AA8058 /* Pitch_PerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93474D01CEAC5D600AA8058 /* Pitch_PerfectUITests.swift */; };
+		E9749E611CF55BA60060677D /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9749E601CF55BA60060677D /* PlaySoundsViewController+Audio.swift */; };
 		E9C9962F1CEEBD1F00DC5B44 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9962E1CEEBD1F00DC5B44 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		E93474CC1CEAC5D600AA8058 /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93474D01CEAC5D600AA8058 /* Pitch_PerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectUITests.swift; sourceTree = "<group>"; };
 		E93474D21CEAC5D600AA8058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9749E601CF55BA60060677D /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		E9C9962E1CEEBD1F00DC5B44 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				E93474B21CEAC5D500AA8058 /* RecordSoundsViewController.swift */,
 				E93474B41CEAC5D500AA8058 /* Main.storyboard */,
 				E9C9962E1CEEBD1F00DC5B44 /* PlaySoundsViewController.swift */,
+				E9749E601CF55BA60060677D /* PlaySoundsViewController+Audio.swift */,
 				E93474B71CEAC5D500AA8058 /* Assets.xcassets */,
 				E93474B91CEAC5D500AA8058 /* LaunchScreen.storyboard */,
 				E93474BC1CEAC5D500AA8058 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93474B31CEAC5D500AA8058 /* RecordSoundsViewController.swift in Sources */,
+				E9749E611CF55BA60060677D /* PlaySoundsViewController+Audio.swift in Sources */,
 				E9C9962F1CEEBD1F00DC5B44 /* PlaySoundsViewController.swift in Sources */,
 				E93474B11CEAC5D500AA8058 /* AppDelegate.swift in Sources */,
 			);
